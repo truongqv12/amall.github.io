@@ -1,0 +1,2598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="public/fontawesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="public/flaticon-2/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="public/flaticon-1/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="public/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/rebonsive.css">
+
+
+</head>
+<body>
+<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xsp-6 col-xs-6 col-sm-3 col-md-2 col-lg-2 logo">
+                    <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                </div>
+                <div class="col-xsp-6 col-xs-6 col-sm-4 rebonsive-show">
+                    <div class="user-nav">
+                        <div class="user-nav-icon">
+                            <a href="#"><img src="images/icon/icon-user.png"></a>
+                        </div>
+                        <div class="user-nav-icon">
+                            <a href="#"><img src="images/icon/icon-don-hang.png"></a>
+                        </div>
+                        <div class="user-nav-icon cart">
+                            <a class="" href="#"><img src="images/icon/icon-gio-hang.png"></a>
+                            <span class="badge">3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xsp-12 col-xs-12 col-sm-6 col-md-7 col-lg-7 form-search-width">
+                    <div class="form-search">
+                        <form action="" method="POST" role="form">
+                            <div class="form-inline">
+                                <input type="text" class="form-control" id="" placeholder="Tìm kiếm sản phẩm, thương hiệu bạn mong muốn...">
+                                <select name="" class="form-control" title="">
+                                    <option value="">Tất cả</option>
+                                    <option value="">Điện thoại</option>
+                                    <option value="">Thiết bị gia dụng</option>
+                                    <option value="">Thiết bị mạng</option>
+                                </select>
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 user-nav-width rebonsive-hidden">
+                    <div class="user-nav">
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-4 col-md-4">
+                                <div class="user-nav-icon">
+                                    <div class="media">
+                                        <a class="media-left" href="#">
+                                            <img src="images/icon/icon-user.png">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="media-heading" title="Chào Nguyên">Chào Nguyên</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4 col-sm-4 col-md-4">
+                                <div class="user-nav-icon">
+                                    <div class="media">
+                                        <a class="media-left" href="#">
+                                            <img src="images/icon/icon-don-hang.png" alt="">
+                                        </a>
+                                        <div class="media-body">
+                                            <p class="media-heading">Đơn hàng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4 col-sm-4 col-md-4 cart">
+                                <div class="user-nav-icon">
+                                    <div class="media">
+                                        <a class="media-left" href="#">
+                                            <img src="images/icon/icon-gio-hang.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <span class="badge">3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="header-middle">
+        <nav class="navbar menu navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li class="menu_home_root first dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-list"></i> </span>Danh mục sản phẩm </a>
+                                <ul class="dropdown-menu" id="menu_home_root">
+                                    <li><a href=""><span><i class="flaticon-laptop"></i></span>Máy tính, linh kiện</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MÁY VI TÍNH</div>
+                                                        <div class="sub"><a href=>Máy tính desktop</a></div>
+                                                        <div class="sub"><a href=>Máy tính Laptop</a></div>
+                                                        <div class="sub"><a href=>Server (Máy chủ)</a></div>
+                                                        <div class="sub"><a href=>Máy tính bảng (Tablet)</a></div>
+                                                        <div class="sub"><a href=>MacBook</a></div>
+                                                        <div class="sub"><a href=>All in one PC</a></div>
+                                                        <div class="root">THIẾT BỊ PHÒNG GAME</div>
+                                                        <div class="sub"><a href=>Gaming Mouse</a></div>
+                                                        <div class="sub"><a href=>Bàn phím Game thủ</a></div>
+                                                        <div class="sub"><a href=>Ghế chơi game</a></div>
+                                                        <div class="sub"><a href=>Mousepad (Bàn di chuột)</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">MÁY VĂN PHÒNG</div>
+                                                        <div class="sub"><a href=>Máy in</a></div>
+                                                        <div class="sub"><a href=>Projector (máy chiếu)</a></div>
+                                                        <div class="sub"><a href=>Mực in</a></div>
+                                                        <div class="sub"><a href=>Máy photocopy</a></div>
+                                                        <div class="sub"><a href=>Máy đọc mã vạch</a></div>
+                                                        <div class="sub"><a href=>Máy chấm công</a></div>
+                                                        <div class="sub"><a href=>Thiết bị hội thảo</a></div>
+                                                        <div class="root">THIẾT BỊ CHO MÁY TÍNH</div>
+                                                        <div class="sub"><a href=>Chuột máy tính</a></div>
+                                                        <div class="sub"><a href=>Bàn phím</a></div>
+                                                        <div class="sub"><a href=>Loa máy tính</a></div>
+                                                        <div class="sub"><a href=>USB Memory 3.0</a></div>
+                                                        <div class="sub"><a href=>Dụng cụ vệ sinh máy</a></div>
+                                                        <div class="sub"><a href=>Màn hình LED</a></div>
+
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>Asus</a></div>
+                                                        <div class="sub"><a href=>Hp</a></div>
+                                                        <div class="sub"><a href=>Acer</a></div>
+                                                        <div class="sub"><a href=>Kingston</a></div>
+                                                        <div class="sub"><a href=>Dell</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href=""><span><i class="flaticon-smartphone-call"></i></span>Điện thoại, viễn thông</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-computer-screen"></i></span>Điện tử, điện máy</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">HÌNH ẢNH</div>
+                                                        <div class="sub"><a href=>Tivi</a></div>
+                                                        <div class="sub"><a href=>Tivi LED</a></div>
+                                                        <div class="sub"><a href=>Tivi OLED</a></div>
+                                                        <div class="sub"><a href=>Projector (Máy chiếu)</a></div>
+                                                        <div class="sub"><a href=>Tivi LCD</a></div>
+                                                        <div class="root">ÂM THANH</div>
+                                                        <div class="sub"><a href=>Amplifier</a></div>
+                                                        <div class="sub"><a href=>Loa nghe nhạc</a></div>
+                                                        <div class="sub"><a href=>Dàn âm thanh</a></div>
+                                                        <div class="sub"><a href=>Loa Hi-end</a></div>
+                                                        <div class="sub"><a href=>Dàn karaoke</a></div>
+                                                        <div class="sub"><a href=>Microphone</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-camera-outline"></i></span>Máy ảnh, máy quay</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate" >
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-transport"></i></span>Ô tô, xe máy, xe đạp</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-shirt"></i></span>Thời trang, phụ kiện</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-baby-head-outline-with-pacifier"></i></span>Mẹ và bé</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-lipstick"></i></span>Sức khỏe, sắc đẹp</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-cooking"></i></span>Đồ dùng sinh hoạt</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-chair"></i></span>Nội thất, ngoại thất</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-book"></i></span>Sách, văn phòng, quà tặng</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-bycicle"></i></span>Thể thao</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-apartment"></i></span>Công nghiệp, Xây dựng</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-international-delivery"></i></span>Dịch vụ, giải trí, du lịch</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><span><i class="flaticon-coffee-cup"></i></span>Thực phẩm, đồ uống</a>
+                                        <ul class="menu_home_navigate">
+                                            <li class="navigate">
+                                                <div class="home_menu_list">
+                                                    <div class="fl">
+                                                        <div class="root">NỔI BẬT</div>
+                                                        <div class="sub"><a class="hot" href=>Bán chạy</a></div>
+                                                        <div class="sub"><a class="hot" href=>Hàng mới</a></div>
+                                                        <div class="sub"><a class="hot" href=>Giảm </a></div>
+                                                        <div class="root">MOBILE</div>
+                                                        <div class="sub"><a href=>Mobile</a></div>
+                                                        <div class="sub"><a href=>Điện thoại Trung Quốc</a></div>
+                                                        <div class="sub"><a href=>Điện thoại trả góp</a></div>
+                                                        <div class="sub"><a href=>PDA</a></div>
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THIẾT BỊ VIỄN THÔNG</div>
+                                                        <div class="sub"><a href=>Tổng Đài Viễn Thông</a></div>
+                                                        <div class="sub"><a href=>GPS-Hệ thống định vị vệ tinh</a></div>
+                                                        <div class="sub"><a href=>Cáp viễn thông</a></div>
+                                                        <div class="sub"><a href=>Thiết bị chống sét</a></div>
+                                                    </div>
+                                                    <div class="fl">
+                                                        <div class="root">THƯƠNG HIỆU</div>
+                                                        <div class="sub"><a href=>Apple</a></div>
+                                                        <div class="sub"><a href=>SamSung</a></div>
+                                                        <div class="sub"><a href=>HTC</a></div>
+                                                        <div class="sub"><a href=>Xiaomi</a></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li>
+                                <ol class="breadcrumb duong-dan">
+                                    <li>
+                                        <a href="#">Trang chủ</a>
+                                    </li>
+                                    <li class=""><a href="">Thời trang</a></li>
+                                    <li class=""><a href="">Thời trang nam</a></li>
+                                    <li class=""><a href="">Túi thời trang chính hãng</a></li>
+                                </ol>
+                            </li>
+                           
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar menu-rebonsive navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" class=""><span><i class="fa fa-list"></i></span> Danh mục sản phẩm </a>
+                                <ul class="nav menu-sub">
+                                    <li><a href=""><span><i class="flaticon-laptop"></i></span>Máy tính, linh kiện</a></li>
+                                    <li><a href=""><span><i class="flaticon-smartphone-call"></i></span>Điện thoại, viễn thông</a></li>
+                                    <li><a href="#"><span><i class="flaticon-computer-screen"></i></span>Điện tử, điện máy</a></li>
+                                    <li><a href="#"><span><i class="flaticon-camera-outline"></i></span>Máy ảnh, máy quay</a></li>
+                                    <li><a href="#"><span><i class="flaticon-transport"></i></span>Ô tô, xe máy, xe đạp</a></li>
+                                    <li><a href="#"><span><i class="flaticon-shirt"></i></span>Thời trang, phụ kiện</a></li>
+                                    <li><a href="#"><span><i class="flaticon-baby-head-outline-with-pacifier"></i></span>Mẹ và bé</a></li>
+                                    <li><a href="#"><span><i class="flaticon-lipstick"></i></span>Sức khỏe, sắc đẹp</a></li>
+                                    <li><a href="#"><span><i class="flaticon-cooking"></i></span>Đồ dùng sinh hoạt</a></li>
+                                    <li><a href="#"><span><i class="flaticon-chair"></i></span>Nội thất, ngoại thất</a></li>
+                                    <li><a href="#"><span><i class="flaticon-book"></i></span>Sách, văn phòng, quà tặng</a></li>
+                                    <li><a href="#"><span><i class="flaticon-bycicle"></i></span>Thể thao</a></li>
+                                    <li><a href="#"><span><i class="flaticon-apartment"></i></span>Công nghiệp, Xây dựng</a></li>
+                                    <li><a href="#"><span><i class="flaticon-international-delivery"></i></span>Dịch vụ, giải trí, du lịch</a></li>
+                                    <li><a href="#"><span><i class="flaticon-coffee-cup"></i></span>Thực phẩm, đồ uống</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="#">Khuyến mại</a></li>
+                            <li><a href="#">Điện tử</a></li>
+                            <li><a href="#">Thời trang</a></li>
+                            <li><a href="#">Đồng hồ, Túi và phụ kiện</a></li>
+                            <li><a href="#">Nhà cửa và đời sống</a></li>
+                            <li><a href="#">Sức khỏe và sắc đẹp</a></li>
+                            <li><a href="#">Trẻ em và đồ chơi</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="header-bottom">
+        <div class="cover-store-top">
+            <a href=""><img src="images/gian-hang/cover-image.png" alt=""></a>
+        </div>
+
+        <div class="container">
+            <div class="cover-store-bot">
+                <div class="avatar">
+                    <a href=""><img src="images/gian-hang/avatar.png" alt=""></a>
+                </div>
+                <div class="name-store">
+                    <h3>iLa Computer CLC iLa Computer CLC iLa Computer CLC iLa Computer CLC iLa Computer CLC iLa Computer CLC</h3>
+                    <span><strong>93%</strong> đánh giá tích cực</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!-- /header -->
+<!--main-->
+<main>
+    <div class="container">
+        <div class="main-top">
+            <div class="product-carousel-booth product-carousel-booth-sell rebonsive-show">
+                <section class="product-carousel">
+                    <div class="title">
+                        <h2>Sản phẩm khuyến mại</h2>
+                        <a href="">Xem thêm</a>
+                    </div>
+                    <div id="product-carousel-sell" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left prev" href="#product-carousel-sell" data-slide="prev"><img src="images/icon/icon-left.png" alt=""></a>
+                        <a class="right next" href="#product-carousel-sell" data-slide="next"><img src="images/icon/icon-right.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+            <div class="product-carousel-booth product-carousel-booth-sell rebonsive-hidden">
+                <section class="product-carousel">
+                    <div class="title">
+                        <h2>Sản phẩm khuyến mại</h2>
+                        <a href="">Xem thêm</a>
+                    </div>
+                    <div id="product-carousel-sell" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left prev" href="#product-carousel-sell" data-slide="prev"><img src="images/icon/icon-left.png" alt=""></a>
+                        <a class="right next" href="#product-carousel-sell" data-slide="next"><img src="images/icon/icon-right.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+            <div class="product-carousel-booth product-carousel-booth-new rebonsive-show">
+                <section class="product-carousel">
+                    <div class="title">
+                        <h2>Sản phẩm mới</h2>
+                        <a href="">Xem thêm</a>
+                    </div>
+                    <div id="product-carousel-new" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left prev" href="#product-carousel-new" data-slide="prev"><img src="images/icon/icon-left.png" alt=""></a>
+                        <a class="right next" href="#product-carousel-new" data-slide="next"><img src="images/icon/icon-right.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+            <div class="product-carousel-booth product-carousel-booth-new rebonsive-hidden">
+                <section class="product-carousel">
+                    <div class="title">
+                        <h2>Sản phẩm mới</h2>
+                        <a href="">Xem thêm</a>
+                    </div>
+                    <div id="product-carousel-new" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-customise">
+                                        <div class="thumbnail">
+                                            <div class="pro-img">
+                                                <a href=""><a href=""><img src="images/product.png" alt=""></a></a>
+                                            </div>
+
+                                            <div class="caption">
+                                                <a href="" title="">
+                                                    <p class="product-name">
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                    </p>
+                                                </a>
+
+                                                <p class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </p>
+                                                <p class="pro-price">
+                                                    249.000 đ <span>349.000 đ</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left prev" href="#product-carousel-new" data-slide="prev"><img src="images/icon/icon-left.png" alt=""></a>
+                        <a class="right next" href="#product-carousel-new" data-slide="next"><img src="images/icon/icon-right.png" alt=""></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="row">
+                <div class="col-xsp-12 col-xs-4 col-sm-3">
+                    <div class="left-sidebar">
+                        <div class="category-product">
+                            <h3>Danh mục sản phẩm</h3>
+                            <ul class="list-group">
+                                <li><a href="">Van ga</a></li>
+                                <li><a href="">Quạt cây</a></li>
+                                <li><a href="">Quạt trần</a></li>
+                                <li><a href="">Máy lọc nước ion</a></li>
+                                <li><a href="">Đồ dùng đựng thực phẩm</a></li>
+                                <li><a href="">Quạt sưởi</a></li>
+                                <li><a href="">Đèn sưởi</a></li>
+                                <li><a href="">Máy vắt cam</a></li>
+                                <li><a href="">SUNHOUSE</a></li>
+                                <li><a href="">Đang cập nhật</a></li>
+                                <li><a href="">Máy làm sữa đậu nành</a></li>
+                                <li><a href="" class="last">> xem thêm </a></li>
+                            </ul>
+                        </div>
+                        <div class="search-product">
+                            <h3>Tìm sản phẩm</h3>
+                            <form action="" method="get" role="form">
+                                <div class="search-product-inline">
+                                    <input type="text" class="form-control" name="" title="">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="order">
+                            <h3>Sắp xếp theo</h3>
+                            <form method="get" role="form">
+                                <label id='choose_order' class="form-control" for="">Mới nhất</label>
+                                <select id="options_order" class="form-control"  name="" title="" size="5">
+                                    <option value="Mới nhất" selected> Mới nhất </option>
+                                    <option value="Giá thấp nhất"> Giá thấp nhất </option>
+                                    <option value="Khuyến mại nhiều nhất"> Khuyến mại nhiều nhất </option>
+                                    <option value="Bán chạy nhất"> Bán chạy nhất</option>
+                                    <option value="Được xem nhiều nhất"> Được xem nhiều nhất</option>
+                                </select>
+                                <div class="checkbox order-checkbox">
+                                    <label>
+                                        <input type="checkbox" value="" > Miễn phí vận chuyển
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" value=""> Đang khuyến mãi
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="price-range">
+                            <h3>Giá</h3>
+                            <div id="price-range"></div>
+                            <div class="price-range-input">
+                                <form method="get">
+                                    <div class="row">
+                                        <div class="col-xs-5 col-sm-5 col-md-5">
+                                            <input class=" form-control" type="text" title="" id="amount1">
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                                            <span> - </span>
+                                        </div>
+                                        <div class="col-xs-5 col-sm-5 col-md-5">
+                                            <input class="form-control"  type="text" title="" id="amount2">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="trademark">
+                            <h3>Thương hiệu</h3>
+                            <form action="" method="get" role="form">
+                                <div class="trademark--inline">
+                                    <input type="text" class="form-control" name="" title="">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                </div>
+                                <div class="checkbox trademark-checkbox">
+                                    <label>
+                                        <input type="checkbox" value="" > Sam Sung
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" value=""> Apple
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" value=""> Macbook
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" value=""> Dell
+                                    </label>
+                                </div>
+                                <a href="">> xem thêm</a>
+                            </form>
+                        </div>
+                        <div class="star-rating">
+                            <h3>Đánh giá</h3>
+                            <div id="rating-range">
+                                <div class="rating-range-step">
+                                    <i class="fa fa-minus"></i>
+                                    <i class="fa fa-minus"></i>
+                                    <i class="fa fa-minus"></i>
+                                </div>
+                            </div>
+                            <div class="star-circle">
+                                <div class="star-circle-lv">
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                </div>
+                                <div class="star-circle-lv">
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                </div>
+                                <div class="star-circle-lv">
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                </div>
+                                <div class="star-circle-lv">
+                                    <i class="flaticon-star-button"></i>
+                                    <i class="flaticon-star-button"></i>
+                                </div>
+                                <div class="star-circle-lv">
+                                    <i class="flaticon-star-button"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xsp-12 col-xs-8 col-sm-9">
+                    <div class="right-sidebar">
+                        <section class="container-top">
+                            <div class="container-top-heading">
+                                <h3>Tất cả sản phẩm</h3>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-container-heading clearfix">
+                                    <div class="col-xs-8 col-sm-7 col-md-9">
+                                        <div class="product-container-heading-left">
+                                            <p>Có <strong>93.792</strong> sản phẩm</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-0 col-sm-5 col-md-3 right">
+                                        <div class="product-container-heading-right">
+                                            <p><span>Xem sản phẩm:</span> <a href="" class="checked"><i class="fa fa-th"></i></a> <a
+                                                    href=""><i class="fa fa-list"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="product-container-main">
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--product item-->
+                                        <div class="col-xsp-6 col-xs-4 col-sm-4 col-md-3">
+                                            <div class="product-container-item">
+                                                <div class="thumbnail">
+                                                    <div class="pro-img">
+                                                        <a href=""><div class="hover-img"></div></a>
+                                                        <img src="images/dongho.png" alt="">
+                                                    </div>
+
+                                                    <div class="caption">
+                                                        <p class="product-name">
+                                                            Son môi L'OREAL Paris Color Riche 12312g 2017 Fullsize(hàng TQ)
+                                                        </p>
+                                                        <p class="star">
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star checked"></span>
+                                                            <span class="fa fa-star"></span>
+                                                        </p>
+                                                        <p class="pro-price">
+                                                            249.000 đ <span>349.000 đ</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="container-bottom clearfix text-center">
+                            <ul class="pagination pagination-small">
+                                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+<!--/main-->
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="col-xsp-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-left">
+            <div class="about">
+                <h4>Mua bán uy tín từ vatgia</h4>
+                <p>Mua hàng trực tuyến mang lại sự tiện lợi, chủ động, lựa chọn đa dạng, với các dịch vụ hỗ trợ mua hàng, bán hàng, thanh toán an toàn, giao hàng chuyên nghiệp. Với phương châm “Luôn đặt mình vào địa vị khách hàng và đối xử trên mong đợi của họ”, Vatgia.com không ngừng nỗ lực, cải tiến đáp ứng nhu cầu mua sắm cho người tiêu dùng. Vatgia đảm bảo cung cấp đúng thông tin cho đúng người, đúng lúc, đảm bảo thanh toán trực tuyến bảo mật an toàn, áp dụng hình thức vận chuyển nhanh phù hợp. </p>
+            </div>
+            <div class="social">
+                <h4>Kết nối với chúng tôi</h4>
+                <ul class="list-inline">
+                    <li class="list-group-item"><a href=""><img src="images/icon/fb.png" alt=""></a></li>
+                    <li class="list-group-item"><a href=""><img src="images/icon/twitter.png" alt=""></a></li>
+                    <li class="list-group-item"><a href=""><img src="images/icon/googleplus.png" alt=""></a></li>
+                    <li class="list-group-item"><a href=""><img src="images/icon/youtube.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xsp-12 col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="row">
+                <div class="col-xsp-12 col-xs-6 col-sm-6 col-md-12 col-lg-12">
+                    <div class="help">
+                        <h4>Trợ giúp</h4>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Chính sách bảo hiểm người mua</a>
+                            <a href="#" class="list-group-item">Cách mua bảo hiểm trên Amaill</a>
+                            <a href="#" class="list-group-item">Lợi ích của tôi khi thanh toán Online?</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xsp-12 col-xs-6 col-sm-6 col-md-12 col-lg-12">
+                    <div class="introduce">
+                        <h4>Giới thiệu</h4>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Sứ mệnh - Tầm nhìn</a>
+                            <a href="#" class="list-group-item">Chúng tôi là ai?</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xsp-12 col-xs-4 col-sm-4 col-md-2 col-lg-2 footer-right">
+            <div class="col-xsp-6 thanh-toan">
+                <a href=""><img src="images/logo/visa.png" alt=""></a>
+                <a href=""><img src="images/logo/bao-kim.png" alt=""></a>
+                <a href=""><img src="images/logo/van-chuyen.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+<script src="public/bootstrap/js/jquery.min.js"></script>
+<script src="public/bootstrap/js/jquery-ui.min.js"></script>
+<script src="public/bootstrap/js/bootstrap.min.js"></script>
+<script>
+
+    $('#logo-category-rebonsive-carousel').carousel({
+        interval: 3000
+    })
+    $(function() {
+        // price-range
+        $( "#price-range" ).slider({
+            range: true,
+            min: 0,
+            max: 500,
+            values: [ 100, 300 ],
+            slide: function( event, ui ) {
+                $( "#amount1" ).val(ui.values[ 0 ]);
+                $( "#amount2" ).val(ui.values[ 1 ]);
+            }
+        });
+        $("#amount1").val($( "#price-range" ).slider( "values", 0 ));
+        $("#amount2").val($( "#price-range" ).slider( "values", 1 ));
+
+        // order
+        $('#choose_order').click(function (e) {
+            e.stopPropagation();
+            $(this).siblings('select').css('width', $(this).outerWidth(true)).toggle();
+        });
+
+        $('#options_order').change(function (e) {
+            e.stopPropagation();
+            var valueSelect = this.value || 'Mới Nhất';
+            $(this).siblings('#choose_order').text(valueSelect);
+            $(this).hide();
+        });
+
+        // hover
+        $('select').find('option').on({
+            'mouseover': function () {
+                $('.hover').removeClass('hover');
+                $(this).addClass('hover');
+            },
+            'mouseleave': function () {
+                $(this).removeClass('hover');
+            }
+        });
+
+        $( "#rating-range" ).slider({
+            orientation: "vertical",
+            range: true,
+            min: 1,
+            max: 5,
+            step: 1,
+            values: [ 3, 5],
+        });
+
+    });
+</script>
+</body>
+</html>
