@@ -887,7 +887,7 @@ main {
     font-size: 12px;
 }
 
-.header-middle .breadcrumb-style{margin: 0;background-color: #fbfbfb;padding: 10px 0}
+.header-middle .breadcrumb-style{margin: 0;background-color: #fbfbfb;padding: 5px 0}
 .header-middle .breadcrumb-style li,
 .header-middle .breadcrumb-style li a{color: #999999;}
 .header-middle .breadcrumb-style li a{padding: 0;font-size: 12px}
@@ -953,18 +953,23 @@ main {
     width: 100%;
 }
 .container-detail .show-info-product .rating-product .click-rating{float: left;cursor: pointer}
-.container-detail .show-info-product .rating-product .click-rating i{}
+
+.container-detail .show-info-product .rating-product .click-rating i{
+    color: #dddddd;
+}
 .container-detail .show-info-product .rating-product .click-rating span{}
 .container-detail .show-info-product .rating-product .click-rating .rating{font-weight: bold;padding-left: 5px;}
 .container-detail .show-info-product .rating-product .click-rating .total-rating{
     font-size: 11px;
-    color: #858585;
     font-weight: bold;
     border-right: 1px solid;
     padding: 0 10px 0 5px;
     margin-right: 10px;
+    color: #333;
 }
-.container-detail .show-info-product .rating-product .click-rating .top100{color: #858585;font-weight: bold;font-size: 12px;}
+.container-detail .show-info-product .rating-product .click-rating .top100{font-weight: bold;font-size: 12px;color: #333;}
+.container-detail .show-info-product .rating-product .click-rating:hover > span{color: orangered ;}
+.container-detail .show-info-product .rating-product .click-rating:hover > i{color: orangered ;}
 .container-detail .show-info-product .brand{color: #333;font-weight: bold;margin: 13px 0;display: table;}
 .container-detail .show-info-product .si-price-pro{}
 .container-detail .show-info-product .si-price-pro .price{
@@ -1100,6 +1105,9 @@ main {
 }
 
 .container-detail .shop-info .shop-if-chat{width: 100%;border: 1px solid #a1a1a1;padding: 5px 10px;border-radius: 3px;color: #000;}
+.container-detail .shop-info .shop-if-chat:hover{
+    color: #f44f00;
+}
 .container-detail .shop-info .shop-if-chat i{color: #1886cc;}
 .container-detail .shop-info .shop-if-contact{
     background-color: #fbfbfb;
@@ -1119,6 +1127,10 @@ main {
     border-radius: 3px;
     padding: 4px 0;
     margin-bottom: 10px;
+}
+.container-detail .shop-info .shop-if-contact .open-shop:hover{
+    background-color: #f44f00;
+    color: #fff;
 }
 .related-product .rebonsive-hidden{display: block}
 .related-product .rebonsive-hidden.lg{display: none}
@@ -1282,7 +1294,9 @@ main {
     padding-left: 5px;
     margin-bottom: 10px;
 }
-
+.dgsp-right .ratting:hover>i{
+    color: orangered;
+}
 .dgsp-right .ratting i{color: #cccccc;cursor: pointer;}
 .dgsp-right .dgsp-btn {
     background-color: #ffaa44;
@@ -1293,7 +1307,7 @@ main {
 }
 .content-tabs .cmt-tabs{}
 .cmt-tabs .comment-content{margin-top: 30px;border-bottom: 1px solid #dddddd;}
-.cmt-tabs .comment-content i{font-size: 9px;}
+.cmt-tabs .comment-content i{font-size: 9px; color: #dddddd}
 .cmt-tabs .comment-content .name{
     padding-left: 5px;
     font-size: 12px;

@@ -669,7 +669,11 @@
         padding: 7px;
         margin-top: 6px;
         border: none;
+        text-align: center;
     }
+    .dgsp-right .ratting{
+        padding: 0;}
+
 }
 @media (max-width: 420px) {
 
