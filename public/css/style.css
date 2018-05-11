@@ -11,6 +11,7 @@ ul{list-style: none; padding: 0;}
     max-width: 1350px !important;
 }
 .padding-0{padding: 0}
+.padding-5{padding: 0 10px}
 .checked{color: #ff9801 !important;}
 /*style header*/
 .header{background-color: #fff;}
@@ -48,6 +49,10 @@ ul{list-style: none; padding: 0;}
     border-radius: 0;
     border-left: 1px #dddddd solid;
     padding: 0 0 0 5px;
+}
+.header-top .form-search select:focus{
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
 }
 .header-top .form-search button {
     width: 7%;

@@ -349,7 +349,7 @@
     .content-top-hidden{display: none}
     .content-top-rebonsive {display: block}
     .category-top-item-img img {width: 70%;}
-
+    .left-sidebar h3{ margin-top: 10px}
     /*rebonsive trang tim kiem*/
 
     .header-bottom .cover-store-top {height: 210px;}
@@ -607,6 +607,31 @@
     /*rebonsive gian hang*/
     .rebonsive-show{display: block}
     .rebonsive-hidden{display: none}
+
+    .product-carousel-booth .product-carousel .title h2{font-size: 25px;margin-top: 0}
+    .product-carousel-booth .product-carousel .item{padding: 0 10px;}
+    .product-carousel-booth .product-carousel .pro-img a img {width: 100%;padding-bottom: 4px;}
+    .product-carousel-booth .product-carousel .product-name {
+        font-size: 12px;
+        line-height: 1.2em;
+        max-height: 2.4em;
+        margin-bottom: 5px;
+    }
+    .product-carousel-booth .product-carousel .pro-price {
+        font-size: 13px;
+    }
+    .product-carousel-booth .product-carousel .pro-price span {
+        padding-left: 10px;
+        font-size: 11px;
+    }
+    .product-carousel-booth .product-carousel .left.prev {
+        top: 40%;
+        left: 0;
+    }
+    .product-carousel-booth .product-carousel .right.next {
+        top: 40%;
+        right:0;
+    }
     /*.header-bottom{height: auto;}*/
     .header-bottom .cover-store-top {height: 135px;}
     .header-bottom .cover-store-top img{height: 135px;padding: 0;}
