@@ -28,7 +28,10 @@ ul{list-style: none; padding: 0;}
     border-radius: 2px;
     overflow: hidden;
 }
-.header-top .form-search input, .header-top .form-search select, .header-top .form-search button{height: 32px;}
+.header-top .form-search input,
+.header-top .form-search select,
+.header-top .form-search button{height: 32px;}
+
 .header-top .form-search input {
     width: 75%;
     border: none;

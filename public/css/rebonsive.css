@@ -359,7 +359,9 @@
     .header-bottom .cover-store-bot .name-store h3{font-size: 16px;}
 
     .main-top .product-carousel-booth-new {padding-bottom: 0px;}
-    .main-content .search-product, .main-content .order, .main-content .price-range, .main-content .trademark, .main-content .star-rating{padding-bottom: 15px}
+    .main-content .search-product, .main-content .order,
+    .main-content .price-range, .main-content .trademark,
+    .main-content .star-rating{padding-bottom: 15px}
 
     .product-carousel-booth .caption {padding: 5px 0 0 0;text-align: unset;}
 
